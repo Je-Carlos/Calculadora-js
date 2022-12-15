@@ -88,7 +88,7 @@ button {
       animation: zoom 1s;
       animation-iteration-count: 1;
       animation-fill-mode: both;
-      content: attr(data-num);
+      content: attr(data-numero);
       cursor: default;
       font-size: 100px;
       position: absolute;
@@ -193,13 +193,12 @@ button {
     top: 20em;
     opacity: 0;
   }
-  
+
   50% {
     opacity: 0;
   }
-  
+
   100% {
     opacity: 1;
   }
 }
-

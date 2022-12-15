@@ -86,7 +86,7 @@ button:focus::after {
           animation-iteration-count: 1;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
-  content: attr(data-num);
+  content: attr(data-numero);
   cursor: default;
   font-size: 100px;
   position: absolute;
