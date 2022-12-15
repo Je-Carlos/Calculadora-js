@@ -3,13 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="src/css/stylesheet.css" />
+    <link rel="stylesheet" href="src/css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap"
+      rel="stylesheet" />
     <title>Calculadora JavaScript</title>
   </head>
   <body>
     <h1>Calculadora JavaScript</h1>
-    <p class="perigo">Não divida NADA por zero</p>
+    <p class="aviso">Não divida NADA por zero</p>
 
     <div id="calculadora" class="calculadora">
       <button id="limpar">C</button>
@@ -20,22 +25,22 @@
       <button class="numero" data-numero="7">7</button>
       <button class="numero" data-numero="8">8</button>
       <button class="numero" data-numero="9">9</button>
-      <button data-ops="multi" class="calculo">X</button>
+      <button data-ops="vezes" class="calculo">X</button>
 
       <button class="numero" data-numero="4">4</button>
       <button class="numero" data-numero="5">5</button>
       <button class="numero" data-numero="6">6</button>
-      <button data-ops="soma" class="calculo">+</button>
+      <button data-ops="mais" class="calculo">+</button>
 
       <button class="numero" data-numero="1">1</button>
       <button class="numero" data-numero="2">2</button>
       <button class="numero" data-numero="3">3</button>
-      <button data-ops="sub" class="calculo">-</button>
+      <button data-ops="menos" class="calculo">-</button>
 
       <button class="numero" data-numero="0">0</button>
       <button class="numero" data-numero=".">.</button>
       <button class="igualA" id="igualA" data-resultado="">=</button>
-      <button data-ops="divisao" class="calculo">/</button>
+      <button data-ops="dividido" class="calculo">/</button>
     </div>
     <button id="reiniciar" class="reiniciar">Reiniciar o Universo?</button>
   </body>
